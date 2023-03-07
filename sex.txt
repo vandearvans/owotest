@@ -1,0 +1,6 @@
+async def kd_message():
+    await client.wait_until_ready()
+    while True: 
+        channel = client.get_channel(1080933948265349246) 
+        await channel.send('kd') 
+        await asyncio.sleep(2400) 
